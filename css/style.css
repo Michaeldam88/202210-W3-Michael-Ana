@@ -19,9 +19,6 @@ body {
   border: none;
   margin-right: 1rem;
 }
-.navbar__button .button__line {
-  margin-bottom: 3px;
-}
 
 .sf-top-version {
   display: flex;
@@ -43,11 +40,11 @@ body {
 }
 .sf-top-version__select {
   border: #5f2eea solid 1px;
-  height: 3.75rem;
-  border: solid 3px #14142b;
+  height: 3.5rem;
+  border: solid 2px #14142b;
   border-radius: 1rem;
   background-color: #f7f7fc;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.5625rem;
   padding-left: 1.5rem;
   font-size: 1rem;
   line-height: 1.75rem;
@@ -61,7 +58,7 @@ body {
 .sf-top-version__button {
   background-color: #ed2e7e;
   border-radius: 2.5rem;
-  height: 3.625rem;
+  height: 3.4375rem;
   color: #f7f7fc;
   font-weight: 600;
   font-size: 1rem;

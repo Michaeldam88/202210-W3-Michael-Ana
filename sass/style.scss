@@ -23,10 +23,7 @@ body {
     &__button {
         background-color: transparent;
         border: none;
-        margin-right: toRem(16);
-        .button__line {
-            margin-bottom: 3px;
-        }
+        margin-right: toRem(16);        
     }
 }
 
@@ -49,11 +46,11 @@ body {
     }
     &__select {
         border: #5f2eea solid 1px;
-        height: toRem(60);
-        border: solid 3px #14142b;
+        height: toRem(56);
+        border: solid 2px #14142b;
         border-radius: toRem(16);
         background-color: #f7f7fc;
-        margin-bottom: toRem(28);
+        margin-bottom: toRem(25);
         padding-left: toRem(24);
         font-size: toRem(16);
         line-height: toRem(28);
@@ -67,7 +64,7 @@ body {
     &__button {
         background-color: #ed2e7e;
         border-radius: toRem(40);
-        height: toRem(58);
+        height: toRem(55);
         color: #f7f7fc;
         font-weight: 600;
         font-size: toRem(16);
