@@ -1,0 +1,26 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  padding: 2.125rem 2.8125rem;
+  border-bottom: 1px solid rgba(188, 164, 255, 0.4078431373);
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__title {
+  color: #5f2eea;
+  font-weight: 700;
+  font-size: 2.14875rem;
+  line-height: 3.4375rem;
+}
+.navbar__button {
+  background-color: transparent;
+  border: none;
+  margin-right: 1rem;
+}
+.navbar__button .button__line {
+  margin-bottom: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
