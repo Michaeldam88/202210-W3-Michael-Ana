@@ -3,6 +3,12 @@
     @return $remValue;
 }
 
+@mixin main-font-parameters {
+    font-size: toRem(16);
+    line-height: toRem(28);
+    letter-spacing: 0.75px;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -23,7 +29,7 @@ body {
     &__button {
         background-color: transparent;
         border: none;
-        margin-right: toRem(16);        
+        margin-right: toRem(16);
     }
 }
 
@@ -45,6 +51,7 @@ body {
         flex-direction: column;
     }
     &__select {
+        @include main-font-parameters;
         border: #5f2eea solid 1px;
         height: toRem(56);
         border: solid 2px #14142b;
@@ -52,9 +59,6 @@ body {
         background-color: #f7f7fc;
         margin-bottom: toRem(25);
         padding-left: toRem(24);
-        font-size: toRem(16);
-        line-height: toRem(28);
-        letter-spacing: 0.75px;
         appearance: none;
         background-image: url(/img/forward.png);
         background-repeat: no-repeat;
@@ -62,15 +66,73 @@ body {
         background-position-y: 50%;
     }
     &__button {
+        @include main-font-parameters;
         background-color: #ed2e7e;
         border-radius: toRem(40);
         height: toRem(55);
         color: #f7f7fc;
         font-weight: 600;
-        font-size: toRem(16);
-        line-height: toRem(28);
-        letter-spacing: 0.75px;
         border: none;
-        padding: 0;
+    }
+}
+
+.sf-side-version {
+    background-color: #2a00a2;
+    border-radius: toRem(20);
+    margin: toRem(43) toRem(30) toRem(48) toRem(30);
+    padding: toRem(30) toRem(33) toRem(35) toRem(35);
+    &__title {
+        font-weight: 600;
+        font-size: toRem(24);
+        line-height: toRem(38);
+        letter-spacing: 0.75px;
+        color: #bca4ff;
+        padding-left: toRem(5);
+        margin-bottom: toRem(27);
+    }
+    &__label {
+        @include main-font-parameters;
+        color: #f3efff;
+        margin-bottom: 1px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__button {
+        @include main-font-parameters;
+        display: flex;
+        border: none;
+        height: toRem(59);
+        border-radius: toRem(15);
+        align-items: center;
+        background-color: #eff0f7;
+        margin-bottom: toRem(13);
+        padding-left: toRem(24);
+        padding-right: toRem(30);
+        color: #14142b;
+    }
+
+    &__button img:first-child {
+        margin-right: toRem(18);
+    }
+
+    &__button > :nth-child(2n) {
+        margin-left: auto;
+    }
+
+    &__button--pink {
+        @include main-font-parameters;
+        justify-content: center;
+        background-color: #ed2e7e;
+        border-radius: toRem(40);
+        height: toRem(64);
+        color: #f7f7fc;
+        font-weight: 600;
+        border: none;
+        margin-top: toRem(14);
+        margin-left: toRem(5);
     }
 }

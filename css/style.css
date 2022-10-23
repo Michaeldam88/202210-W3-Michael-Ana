@@ -39,6 +39,9 @@ body {
   flex-direction: column;
 }
 .sf-top-version__select {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.75px;
   border: #5f2eea solid 1px;
   height: 3.5rem;
   border: solid 2px #14142b;
@@ -46,9 +49,6 @@ body {
   background-color: #f7f7fc;
   margin-bottom: 1.5625rem;
   padding-left: 1.5rem;
-  font-size: 1rem;
-  line-height: 1.75rem;
-  letter-spacing: 0.75px;
   appearance: none;
   background-image: url(/img/forward.png);
   background-repeat: no-repeat;
@@ -56,16 +56,77 @@ body {
   background-position-y: 50%;
 }
 .sf-top-version__button {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.75px;
   background-color: #ed2e7e;
   border-radius: 2.5rem;
   height: 3.4375rem;
   color: #f7f7fc;
   font-weight: 600;
+  border: none;
+}
+
+.sf-side-version {
+  background-color: #2a00a2;
+  border-radius: 1.25rem;
+  margin: 2.6875rem 1.875rem 3rem 1.875rem;
+  padding: 1.875rem 2.0625rem 2.1875rem 2.1875rem;
+}
+.sf-side-version__title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.375rem;
+  letter-spacing: 0.75px;
+  color: #bca4ff;
+  padding-left: 0.3125rem;
+  margin-bottom: 1.6875rem;
+}
+.sf-side-version__label {
   font-size: 1rem;
   line-height: 1.75rem;
   letter-spacing: 0.75px;
+  color: #f3efff;
+  margin-bottom: 1px;
+}
+.sf-side-version__form {
+  display: flex;
+  flex-direction: column;
+}
+.sf-side-version__button {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.75px;
+  display: flex;
   border: none;
-  padding: 0;
+  height: 3.6875rem;
+  border-radius: 0.9375rem;
+  align-items: center;
+  background-color: #eff0f7;
+  margin-bottom: 0.8125rem;
+  padding-left: 1.5rem;
+  padding-right: 1.875rem;
+  color: #14142b;
+}
+.sf-side-version__button img:first-child {
+  margin-right: 1.125rem;
+}
+.sf-side-version__button > :nth-child(2n) {
+  margin-left: auto;
+}
+.sf-side-version__button--pink {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.75px;
+  justify-content: center;
+  background-color: #ed2e7e;
+  border-radius: 2.5rem;
+  height: 4rem;
+  color: #f7f7fc;
+  font-weight: 600;
+  border: none;
+  margin-top: 0.875rem;
+  margin-left: 0.3125rem;
 }
 
 /*# sourceMappingURL=style.css.map */
