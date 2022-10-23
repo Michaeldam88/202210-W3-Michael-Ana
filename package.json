@@ -1,0 +1,19 @@
+{
+    "name": "challenge-week-3-travelulu",
+    "version": "1.0.0",
+    "description": "Maquetado de una web de reservas de viajes",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install",
+        "sass": "sass sass:css -w"
+    },
+    "author": "Michael and Ana",
+    "license": "ISC",
+    "devDependencies": {
+        "husky": "^8.0.0"
+    },
+    "dependencies": {
+        "sass": "^1.55.0"
+    }
+}
