@@ -29,3 +29,51 @@ body {
         }
     }
 }
+
+.sf-top-version {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #d9dbe9;
+    padding: toRem(77) toRem(30) toRem(53) toRem(30);
+    &__title {
+        color: #000000;
+        font-weight: 700;
+        font-size: toRem(24);
+        line-height: toRem(32);
+        letter-spacing: 1px;
+        padding-bottom: 1.8rem;
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+    &__select {
+        border: #5f2eea solid 1px;
+        height: toRem(60);
+        border: solid 3px #14142b;
+        border-radius: toRem(16);
+        background-color: #f7f7fc;
+        margin-bottom: toRem(28);
+        padding-left: toRem(24);
+        font-size: toRem(16);
+        line-height: toRem(28);
+        letter-spacing: 0.75px;
+        appearance: none;
+        background-image: url(/img/forward.png);
+        background-repeat: no-repeat;
+        background-position-x: 94%;
+        background-position-y: 50%;
+    }
+    &__button {
+        background-color: #ed2e7e;
+        border-radius: toRem(40);
+        height: toRem(58);
+        color: #f7f7fc;
+        font-weight: 600;
+        font-size: toRem(16);
+        line-height: toRem(28);
+        letter-spacing: 0.75px;
+        border: none;
+        padding: 0;
+    }
+}

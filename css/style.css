@@ -23,4 +23,52 @@ body {
   margin-bottom: 3px;
 }
 
+.sf-top-version {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px #d9dbe9;
+  padding: 4.8125rem 1.875rem 3.3125rem 1.875rem;
+}
+.sf-top-version__title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  padding-bottom: 1.8rem;
+}
+.sf-top-version__form {
+  display: flex;
+  flex-direction: column;
+}
+.sf-top-version__select {
+  border: #5f2eea solid 1px;
+  height: 3.75rem;
+  border: solid 3px #14142b;
+  border-radius: 1rem;
+  background-color: #f7f7fc;
+  margin-bottom: 1.75rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.75px;
+  appearance: none;
+  background-image: url(/img/forward.png);
+  background-repeat: no-repeat;
+  background-position-x: 94%;
+  background-position-y: 50%;
+}
+.sf-top-version__button {
+  background-color: #ed2e7e;
+  border-radius: 2.5rem;
+  height: 3.625rem;
+  color: #f7f7fc;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.75px;
+  border: none;
+  padding: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
