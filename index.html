@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
             rel="stylesheet"
         />
         <title>Travelulu</title>
@@ -37,19 +37,21 @@
                 </button>
             </nav>
         </header>
-        <section>
-            <h2>Find deals on hotels, homes and much more...</h2>
-            <form action="">
-                <select name="" id="">
-                    Where are you going?
+        <section class="sf-top-version">
+            <h2 class="sf-top-version__title">
+                Find deals on hotels, homes and much more...
+            </h2>
+            <form class="sf-top-version__form" action="">
+                <select class="sf-top-version__select" name="where" id="">
+                    <option value="default">Where are you going?</option>
                 </select>
-                <select name="" id="">
-                    Check-in Check-out
+                <select class="sf-top-version__select" name="date" id="">
+                    <option value="default">Check-in Check-out</option>
                 </select>
-                <select name="" id="">
-                    2 adults - 0 children
+                <select class="sf-top-version__select" name="who" id="">
+                    <option value="default">2 adults - 0 children</option>
                 </select>
-                <button>Search</button>
+                <button class="sf-top-version__button">Search</button>
             </form>
         </section>
     </body>
