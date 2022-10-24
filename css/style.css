@@ -130,6 +130,9 @@ body {
 }
 
 .sf-side2-version {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0 1.875rem 4.25rem 1.625rem;
 }
 .sf-side2-version__title {
