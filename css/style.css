@@ -306,4 +306,28 @@ body {
   width: 80%;
 }
 
+@media (min-width: 950px) {
+  .main-container {
+    padding: 0 3%;
+  }
+  .sf-top-version__form {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sf-top-version__select {
+    margin-right: 1.25rem;
+    padding: 0 1.5625rem;
+  }
+  .sf-top-version__select--bigger {
+    width: 100%;
+  }
+  .sf-top-version__button {
+    padding: 0 1.25rem;
+    width: 20%;
+  }
+  .sf-side-version {
+    width: 24rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
