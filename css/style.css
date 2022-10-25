@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  min-width: 380px;
 }
 
 .navbar {
@@ -133,7 +134,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 1.875rem 4.25rem 1.625rem;
+  padding: 0 1.875rem 0 1.625rem;
 }
 .sf-side2-version__title {
   font-weight: 700;
@@ -216,11 +217,93 @@ body {
   display: flex;
   justify-content: center;
   top: -27px;
-  margin-bottom: 2.6875rem;
 }
 
 .description-image__button--last {
   margin-bottom: 2.1875rem;
+}
+
+.extra-info__warning-info, .extra-info__like-info {
+  border: solid 2px;
+  margin: 0 0.375rem;
+  display: flex;
+  border-radius: 1rem;
+  padding: 1.25rem 1.5625rem 1.25rem 1.5625rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  letter-spacing: 0.25px;
+}
+.extra-info__warning-info > p, .extra-info__like-info > p {
+  padding-right: 1.25rem;
+}
+
+.extra-info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.extra-info__like-info {
+  color: #00966d;
+  border-color: #00ba88;
+  background-color: #f2fffb;
+  margin-bottom: 2.5rem;
+}
+.extra-info__like-info--first-icon {
+  margin-right: 1.0625rem;
+  margin-top: 0.25rem;
+  height: 23px;
+}
+.extra-info__like-info--close-icon {
+  height: 12px;
+  align-self: center;
+  margin-left: auto;
+}
+.extra-info__warning-info {
+  color: #c30052;
+  border-color: #ed2e7e;
+  background-color: #fff3f8;
+  margin-bottom: 2rem;
+}
+.extra-info__warning-info--first-icon {
+  margin-right: 1.0625rem;
+  margin-top: 0.25rem;
+  height: 23px;
+}
+.extra-info__warning-info--close-icon {
+  height: 12px;
+  align-self: center;
+  margin-left: auto;
+}
+.extra-info__contact-us {
+  height: 28.75rem;
+  border-radius: 2.1875rem;
+  background-image: url(/img/Group\ 247.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.extra-info__contact-us > h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.125rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.extra-info__contact-us > button {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0.75px;
+  background-color: transparent;
+  border: solid 2px #fcfcfc;
+  border-radius: 2.5rem;
+  color: #fcfcfc;
+  font-weight: 600;
+  height: 4rem;
+  margin-top: 1.5625rem;
+  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
