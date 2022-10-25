@@ -217,3 +217,16 @@ body {
     font-weight: 600;
     color: #5f2eea;
 }
+
+.button-container {
+    position: relative;
+    background-color: white;
+    width: toRem(126);
+    display: flex;
+    justify-content: center;
+    top: -27px;
+    margin-bottom: toRem(43);
+}
+.description-image__button--last {
+    margin-bottom: toRem(35);
+}

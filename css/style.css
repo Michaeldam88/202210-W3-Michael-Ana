@@ -209,4 +209,18 @@ body {
   color: #5f2eea;
 }
 
+.button-container {
+  position: relative;
+  background-color: white;
+  width: 7.875rem;
+  display: flex;
+  justify-content: center;
+  top: -27px;
+  margin-bottom: 2.6875rem;
+}
+
+.description-image__button--last {
+  margin-bottom: 2.1875rem;
+}
+
 /*# sourceMappingURL=style.css.map */
