@@ -304,11 +304,15 @@ body {
   height: 4rem;
   margin-top: 1.5625rem;
   width: 80%;
+  max-width: 25rem;
 }
 
 @media (min-width: 950px) {
   .main-container {
-    padding: 0 3%;
+    padding: 0 5%;
+  }
+  .main-container__search {
+    display: flex;
   }
   .sf-top-version__form {
     flex-direction: row;
@@ -326,7 +330,23 @@ body {
     width: 20%;
   }
   .sf-side-version {
-    width: 24rem;
+    min-width: 22rem;
+    width: 26rem;
+    height: fit-content;
+    margin: 2.8125rem 0;
+  }
+  .sf-side2-version {
+    width: 90%;
+    padding: 0;
+    margin-top: 2.8125rem;
+    margin-left: 2.3125rem;
+  }
+  .sf-side2-version__main {
+    display: flex;
+    flex-direction: row;
+  }
+  .sf-side2-version__image--hidden {
+    display: none;
   }
 }
 
