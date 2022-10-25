@@ -11,6 +11,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    min-width: 380px;
 }
 
 .navbar {
@@ -141,7 +142,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 toRem(30) toRem(68) toRem(26);
+    padding: 0 toRem(30) 0 toRem(26);
     &__title {
         font-weight: 700;
         font-size: toRem(24);
@@ -225,8 +226,90 @@ body {
     display: flex;
     justify-content: center;
     top: -27px;
-    margin-bottom: toRem(43);
 }
 .description-image__button--last {
     margin-bottom: toRem(35);
+}
+
+%notification-card {
+    border: solid 2px;
+    margin: 0 toRem(6);
+    display: flex;
+    border-radius: toRem(16);
+    padding: toRem(20) toRem(25) toRem(20) toRem(25);
+    font-weight: 500;
+    font-size: toRem(14);
+    line-height: toRem(22);
+    letter-spacing: 0.25px;
+    & > p {
+        padding-right: toRem(20);
+    }
+}
+
+.extra-info {
+    padding: toRem(24);
+    display: flex;
+    flex-direction: column;
+    &__like-info {
+        @extend %notification-card;
+        color: #00966d;
+        border-color: #00ba88;
+        background-color: #f2fffb;
+        margin-bottom: toRem(40);
+        &--first-icon {
+            margin-right: toRem(17);
+            margin-top: toRem(4);
+            height: 23px;
+        }
+        &--close-icon {
+            height: 12px;
+            align-self: center;
+            margin-left: auto;
+        }
+    }
+    &__warning-info {
+        @extend %notification-card;
+        color: #c30052;
+        border-color: #ed2e7e;
+        background-color: #fff3f8;
+        margin-bottom: toRem(32);
+        &--first-icon {
+            margin-right: toRem(17);
+            margin-top: toRem(4);
+            height: 23px;
+        }
+        &--close-icon {
+            height: 12px;
+            align-self: center;
+            margin-left: auto;
+        }
+    }
+    &__contact-us {
+        height: toRem(460);
+        border-radius: toRem(35);
+        background-image: url(/img/Group\ 247.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & > h1 {
+            color: white;
+            font-weight: 700;
+            font-size: toRem(48);
+            line-height: toRem(50);
+            letter-spacing: 1px;
+            text-align: center;
+        }
+        & > button {
+            @include main-font-parameters;
+            background-color: transparent;
+            border: solid 2px #fcfcfc;
+            border-radius: toRem(40);
+            color: #fcfcfc;
+            font-weight: 600;
+            height: toRem(64);
+            margin-top: toRem(25);
+            width: 80%;
+        }
+    }
 }
