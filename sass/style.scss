@@ -391,11 +391,11 @@ body {
 
 @media (min-width: 950px) {
     .main-container {
-        padding: 0 1% 0 5%;
         &__search {
             display: flex;
             margin: 0 auto;
             max-width: 1200px;
+            padding: 0 toRem(30);
         }
     }
 
@@ -477,6 +477,10 @@ body {
         flex-direction: row;
         margin: 0 auto;
         max-width: 1200px;
+        &__title {
+            margin-top: 0;
+        }
+
         &__info {
             align-items: flex-start;
         }

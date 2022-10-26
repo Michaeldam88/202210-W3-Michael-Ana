@@ -379,13 +379,11 @@ body {
 }
 
 @media (min-width: 950px) {
-  .main-container {
-    padding: 0 1% 0 5%;
-  }
   .main-container__search {
     display: flex;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 0 1.875rem;
   }
   .sf-top-version__form {
     flex-direction: row;
@@ -451,6 +449,9 @@ body {
     flex-direction: row;
     margin: 0 auto;
     max-width: 1200px;
+  }
+  .footer__title {
+    margin-top: 0;
   }
   .footer__info {
     align-items: flex-start;
