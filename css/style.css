@@ -147,10 +147,14 @@ body {
   padding: 2.6875rem 0 2.4375rem 0.25rem;
   border-bottom: 1px solid #d9dbe9;
 }
+.sf-side2-version__main--hidden {
+  display: none;
+}
 .sf-side2-version__image {
   display: flex;
   height: 12.75rem;
   margin-bottom: 1.375rem;
+  overflow-y: auto;
 }
 .sf-side2-version__image > img {
   margin-right: 1.3125rem;
@@ -283,6 +287,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 20%;
 }
 .extra-info__contact-us > h1 {
   color: white;
@@ -345,7 +350,16 @@ body {
     display: flex;
     flex-direction: row;
   }
+  .sf-side2-version__main--last {
+    border-bottom: none;
+  }
+  .sf-side2-version__image {
+    overflow: initial;
+  }
   .sf-side2-version__image--hidden {
+    display: none;
+  }
+  .button-container--hidden {
     display: none;
   }
 }

@@ -154,12 +154,16 @@ body {
     &__main {
         padding: toRem(43) 0 toRem(39) toRem(4);
         border-bottom: 1px solid #d9dbe9;
+        &--hidden {
+            display: none;
+        }
     }
 
     &__image {
         display: flex;
         height: toRem(204);
         margin-bottom: toRem(22);
+        overflow-y: auto;
         & > img {
             margin-right: toRem(21);
         }
@@ -292,6 +296,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 0 20%;
         & > h1 {
             color: white;
             font-weight: 700;
@@ -356,12 +361,20 @@ body {
         &__main {
             display: flex;
             flex-direction: row;
+            &--last {
+                border-bottom: none;
+            }
         }
 
         &__image {
+            overflow: initial;
             &--hidden {
                 display: none;
             }
         }
+    }
+
+    .button-container--hidden {
+        display: none;
     }
 }
