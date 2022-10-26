@@ -28,7 +28,11 @@
                 Find deals on hotels, homes and much more...
             </h2>
             <form class="sf-top-version__form" action="">
-                <select class="sf-top-version__select" name="where" id="">
+                <select
+                    class="sf-top-version__select sf-top-version__select--bigger"
+                    name="where"
+                    id=""
+                >
                     <option value="default">Where are you going?</option>
                 </select>
                 <select class="sf-top-version__select" name="date" id="">
@@ -40,223 +44,362 @@
                 <button class="sf-top-version__button">Search</button>
             </form>
         </section>
-        <section class="sf-side-version">
-            <h2 class="sf-side-version__title">Search</h2>
-            <form class="sf-side-version__form" action="">
-                <label class="sf-side-version__label" for="destination"
-                    >Destination/property name</label
-                >
-                <button class="sf-side-version__button" id="destination">
-                    <img src="img/Search.png" alt="Search Button" />
-                    Gold Coast
-                    <img src="img/Downward.png" alt="Downward Icon" />
-                </button>
+        <div class="main-container">
+            <div class="main-container__search">
+                <section class="sf-side-version">
+                    <h2 class="sf-side-version__title">Search</h2>
+                    <form class="sf-side-version__form" action="">
+                        <label class="sf-side-version__label" for="destination"
+                            >Destination/property name</label
+                        >
+                        <button
+                            class="sf-side-version__button"
+                            id="destination"
+                        >
+                            <img src="img/Search.png" alt="Search Button" />
+                            Gold Coast
+                            <img src="img/Downward.png" alt="Downward Icon" />
+                        </button>
 
-                <label class="sf-side-version__label" for="check-in"
-                    >Check-in date</label
-                >
-                <button class="sf-side-version__button" id="check-in">
-                    <img src="img/Calendar.png" alt="Check-in icon" />
-                    Check-in date
-                    <img src="img/Downward.png" alt="Downward Icon" />
-                </button>
+                        <label class="sf-side-version__label" for="check-in"
+                            >Check-in date</label
+                        >
+                        <button class="sf-side-version__button" id="check-in">
+                            <img src="img/Calendar.png" alt="Check-in icon" />
+                            Check-in date
+                            <img src="img/Downward.png" alt="Downward Icon" />
+                        </button>
 
-                <label class="sf-side-version__label" for="check-in"
-                    >Check-out date</label
-                >
-                <button class="sf-side-version__button" id="check-out">
-                    <img src="img/Calendar.png" alt="Check-out icon" />
-                    Check-out date
-                    <img src="img/Downward.png" alt="Downward Icon" />
-                </button>
+                        <label class="sf-side-version__label" for="check-in"
+                            >Check-out date</label
+                        >
+                        <button class="sf-side-version__button" id="check-out">
+                            <img src="img/Calendar.png" alt="Check-out icon" />
+                            Check-out date
+                            <img src="img/Downward.png" alt="Downward Icon" />
+                        </button>
 
-                <label class="sf-side-version__label" for="travellers"
-                    >Travellers</label
-                >
-                <button class="sf-side-version__button" id="destination">
-                    <img src="img/Profile.png" alt="Travellers Icon" />
-                    2 adults - 0 children
-                </button>
+                        <label class="sf-side-version__label" for="travellers"
+                            >Travellers</label
+                        >
+                        <button
+                            class="sf-side-version__button"
+                            id="destination"
+                        >
+                            <img src="img/Profile.png" alt="Travellers Icon" />
+                            2 adults - 0 children
+                        </button>
 
-                <button
-                    class="sf-side-version__button sf-side-version__button--pink"
-                >
-                    Search
-                </button>
-            </form>
-        </section>
-        <section class="sf-side2-version">
-            <h2 class="sf-side2-version__title">254 Properties Found</h2>
-            <div class="sf-side2-version__main">
-                <div class="sf-side2-version__image">
-                    <img src="./img/Rectangle 13.png" alt="casa blanca 1" />
-                    <img src="./img/Rectangle 14.png" alt="casa blanca 2" />
-                </div>
-                <div class="sf-side2-version__star">
-                    <img src="./img/Star.png" alt="estrella" />
-                    <img src="./img/Star.png" alt="estrella" />
-                    <img src="./img/Star.png" alt="estrella" />
-                    <img src="./img/Star.png" alt="estrella" />
-                    <img src="./img/Star.png" alt="estrella" />
-                </div>
-                <div class="description-image">
-                    <p class="description-image__title">
-                        Estate de la Newcastle
-                    </p>
-                    <p class="description-image__text">
-                        Newcastle City Center, Newcastle upon Tyne
-                    </p>
-                    <p class="description-image__text">0.1km from centre</p>
-                    <div class="gps">
-                        <img src="./img/Location.png" alt="logo gps" />
-                        <p>Show on map</p>
+                        <button
+                            class="sf-side-version__button sf-side-version__button--pink"
+                        >
+                            Search
+                        </button>
+                    </form>
+                </section>
+                <section class="sf-side2-version">
+                    <h2 class="sf-side2-version__title">
+                        254 Properties Found
+                    </h2>
+                    <div class="sf-side2-version__main">
+                        <div class="sf-side2-version__image">
+                            <img
+                                src="./img/Rectangle 13.png"
+                                alt="casa blanca 1"
+                            />
+                            <img
+                                class="sf-side2-version__image--hidden"
+                                src="./img/Rectangle 13.png"
+                                alt="casa blanca 2"
+                            />
+                        </div>
+                        <div class="sf-side2-version__info">
+                            <div class="sf-side2-version__star">
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                            </div>
+                            <div class="description-image">
+                                <p class="description-image__title">
+                                    Estate de la Newcastle
+                                </p>
+                                <p class="description-image__text">
+                                    Newcastle City Center, Newcastle upon Tyne
+                                </p>
+                                <p class="description-image__text">
+                                    0.1km from centre
+                                </p>
+                                <div class="gps">
+                                    <img
+                                        src="./img/Location.png"
+                                        alt="logo gps"
+                                    />
+                                    <p>Show on map</p>
+                                </div>
+                                <p class="description-image__text">
+                                    Situated in Newcastle City Centre, Maldron
+                                    Hotel
+                                </p>
+                                <p class="description-image__text">
+                                    features free Wifi and a private court yard.
+                                </p>
+                            </div>
+                            <button class="description-image__button">
+                                Make a booking
+                            </button>
+                        </div>
                     </div>
-                    <p class="description-image__text">
-                        Situated in Newcastle City Centre, Maldron Hotel
-                    </p>
-                    <p class="description-image__text">
-                        features free Wifi and a private court yard.
-                    </p>
-                </div>
-                <button class="description-image__button">
-                    Make a booking
-                </button>
-            </div>
 
-            <div class="sf-side2-version__main">
-                <div class="sf-side2-version__image">
-                    <img src="./img/Rectangle 19.png" alt="casa blanca 1" />
-                    <img src="./img/Rectangle 16.png" alt="casa blanca 2" />
-                </div>
-                <div class="sf-side2-version__star">
-                    <img src="./img/Star.png" alt="estrella" />
-                    <img src="./img/Star.png" alt="estrella" />
-                    <img src="./img/Star.png" alt="estrella" />
-                </div>
-                <div class="description-image">
-                    <p class="description-image__title">
-                        Estate de la Newcastle
-                    </p>
-                    <p class="description-image__text">
-                        Newcastle City Center, Newcastle upon Tyne
-                    </p>
-                    <p class="description-image__text">0.1km from centre</p>
-                    <div class="gps">
-                        <img src="./img/Location.png" alt="logo gps" />
-                        <p>Show on map</p>
+                    <div class="sf-side2-version__main">
+                        <div class="sf-side2-version__image">
+                            <img
+                                src="./img/Rectangle 15.png"
+                                alt="casa blanca 1"
+                            />
+                            <img
+                                class="sf-side2-version__image--hidden"
+                                src="./img/Rectangle 15.png"
+                                alt="casa blanca 2"
+                            />
+                        </div>
+                        <div class="sf-side2-version__info">
+                            <div class="sf-side2-version__star">
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/half-Star.png" alt="estrella" />
+                            </div>
+                            <div class="description-image">
+                                <p class="description-image__title">
+                                    Estate de la Newcastle
+                                </p>
+                                <p class="description-image__text">
+                                    Newcastle City Center, Newcastle upon Tyne
+                                </p>
+                                <p class="description-image__text">
+                                    0.1km from centre
+                                </p>
+                                <div class="gps">
+                                    <img
+                                        src="./img/Location.png"
+                                        alt="logo gps"
+                                    />
+                                    <p>Show on map</p>
+                                </div>
+                                <p class="description-image__text">
+                                    Situated in Newcastle City Centre, Maldron
+                                    Hotel
+                                </p>
+                                <p class="description-image__text">
+                                    features free Wifi and a private court yard.
+                                </p>
+                            </div>
+                            <button class="description-image__button">
+                                Make a booking
+                            </button>
+                        </div>
                     </div>
-                    <p class="description-image__text">
-                        Situated in Newcastle City Centre, Maldron Hotel
-                    </p>
-                    <p class="description-image__text">
-                        features free Wifi and a private court yard.
-                    </p>
-                </div>
-                <button class="description-image__button">
-                    Make a booking
-                </button>
-            </div>
 
-            <div class="sf-side2-version__main">
-                <div class="sf-side2-version__image">
-                    <img src="./img/Rectangle 15.png" alt="casa blanca 1" />
-                    <img src="./img/Rectangle 18.png" alt="casa blanca 2" />
-                </div>
-                <div class="sf-side2-version__star">
-                    <img src="./img/Star.png" alt="estrella" />
-                    <img src="./img/Star.png" alt="estrella" />
-                    <img src="./img/Star.png" alt="estrella" />
-                </div>
-                <div class="description-image">
-                    <p class="description-image__title">
-                        Estate de la Newcastle
-                    </p>
-                    <p class="description-image__text">
-                        Newcastle City Center, Newcastle upon Tyne
-                    </p>
-                    <p class="description-image__text">0.1km from centre</p>
-                    <div class="gps">
-                        <img src="./img/Location.png" alt="logo gps" />
-                        <p>Show on map</p>
+                    <div
+                        class="sf-side2-version__main sf-side2-version__main--hidden"
+                    >
+                        <div class="sf-side2-version__image">
+                            <img
+                                src="./img/Rectangle 19.png"
+                                alt="casa blanca 1"
+                            />
+                            <img
+                                class="sf-side2-version__image--hidden"
+                                src="./img/Rectangle 19.png"
+                                alt="casa blanca 2"
+                            />
+                        </div>
+                        <div class="sf-side2-version__info">
+                            <div class="sf-side2-version__star">
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                            </div>
+                            <div class="description-image">
+                                <p class="description-image__title">
+                                    Estate de la Newcastle
+                                </p>
+                                <p class="description-image__text">
+                                    Newcastle City Center, Newcastle upon Tyne
+                                </p>
+                                <p class="description-image__text">
+                                    0.1km from centre
+                                </p>
+                                <div class="gps">
+                                    <img
+                                        src="./img/Location.png"
+                                        alt="logo gps"
+                                    />
+                                    <p>Show on map</p>
+                                </div>
+                                <p class="description-image__text">
+                                    Situated in Newcastle City Centre, Maldron
+                                    Hotel
+                                </p>
+                                <p class="description-image__text">
+                                    features free Wifi and a private court yard.
+                                </p>
+                            </div>
+                            <button class="description-image__button">
+                                Make a booking
+                            </button>
+                        </div>
                     </div>
-                    <p class="description-image__text">
-                        Situated in Newcastle City Centre, Maldron Hotel
+
+                    <div
+                        class="sf-side2-version__main sf-side2-version__main--last"
+                    >
+                        <div class="sf-side2-version__image">
+                            <img
+                                src="./img/Rectangle 16.png"
+                                alt="casa blanca 1"
+                            />
+                            <img
+                                class="sf-side2-version__image--hidden"
+                                src="./img/Rectangle 16.png"
+                                alt="casa blanca 2"
+                            />
+                        </div>
+                        <div class="sf-side2-version__info">
+                            <div class="sf-side2-version__star">
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/Star.png" alt="estrella" />
+                                <img src="./img/half-Star.png" alt="estrella" />
+                            </div>
+                            <div class="description-image">
+                                <p class="description-image__title">
+                                    Estate de la Newcastle
+                                </p>
+                                <p class="description-image__text">
+                                    Newcastle City Center, Newcastle upon Tyne
+                                </p>
+                                <p class="description-image__text">
+                                    0.1km from centre
+                                </p>
+                                <div class="gps">
+                                    <img
+                                        src="./img/Location.png"
+                                        alt="logo gps"
+                                    />
+                                    <p>Show on map</p>
+                                </div>
+                                <p class="description-image__text">
+                                    Situated in Newcastle City Centre, Maldron
+                                    Hotel
+                                </p>
+                                <p class="description-image__text">
+                                    features free Wifi and a private court yard.
+                                </p>
+                            </div>
+                            <button
+                                class="description-image__button description-image__button--last"
+                            >
+                                Make a booking
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="button-container button-container--hidden">
+                        <img src="./img/Button with Icon Only.png" />
+                    </div>
+                </section>
+            </div>
+            <section class="extra-info">
+                <div class="extra-info__like-info">
+                    <img
+                        class="extra-info__like-info--first-icon"
+                        src="img/Rectangle 330.png"
+                        alt="Thumbs-up icon"
+                    />
+                    <p>
+                        Lock in a great price for your upcoming stay. Get
+                        instant confirmation with FREE cancellation on most
+                        rooms!
                     </p>
-                    <p class="description-image__text">
-                        features free Wifi and a private court yard.
+                    <img
+                        class="extra-info__like-info--close-icon"
+                        src="img/Close.png"
+                        alt="close icon"
+                    />
+                </div>
+                <div class="extra-info__warning-info">
+                    <img
+                        class="extra-info__warning-info--first-icon"
+                        src="img/Alert-info.png"
+                        alt="alert icon"
+                    />
+                    <p>
+                        From 6 April 2022, your chosen cancellation policy will
+                        apply, regardless of Coronavirus. We recommend booking a
+                        free cancellation option in case your travel plans need
+                        to change.
+                    </p>
+                    <img
+                        class="extra-info__warning-info--close-icon"
+                        src="img/Close.png"
+                        alt="close icon"
+                    />
+                </div>
+                <div class="extra-info__contact-us">
+                    <h1>Need more information to get started?</h1>
+                    <button>CONTACT US</button>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer__info">
+                    <h1 class="footer__title">Travelulu</h1>
+
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Sed ac ullamcorper magna, ac laoreet ex. Integer a
+                        consequat lectus. Nullam tortor sem
+                    </p>
+                    <p class="footer__copyrigth">
+                        Copyright 2021, All Rights Reserved.
                     </p>
                 </div>
-                <button
-                    class="description-image__button description-image__button--last"
-                >
-                    Make a booking
-                </button>
-            </div>
-            <div class="button-container">
-                <img src="./img/Button with Icon Only.png" />
-            </div>
-        </section>
-        <section class="extra-info">
-            <div class="extra-info__like-info">
-                <img
-                    class="extra-info__like-info--first-icon"
-                    src="img/Rectangle 330.png"
-                    alt="Thumbs-up icon"
-                />
-                <p>
-                    Lock in a great price for your upcoming stay. Get instant
-                    confirmation with FREE cancellation on most rooms!
-                </p>
-                <img
-                    class="extra-info__like-info--close-icon"
-                    src="img/Close.png"
-                    alt="close icon"
-                />
-            </div>
-            <div class="extra-info__warning-info">
-                <img
-                    class="extra-info__warning-info--first-icon"
-                    src="img/Alert-info.png"
-                    alt="alert icon"
-                />
-                <p>
-                    From 6 April 2022, your chosen cancellation policy will
-                    apply, regardless of Coronavirus. We recommend booking a
-                    free cancellation option in case your travel plans need to
-                    change.
-                </p>
-                <img
-                    class="extra-info__warning-info--close-icon"
-                    src="img/Close.png"
-                    alt="close icon"
-                />
-            </div>
-            <div class="extra-info__contact-us">
-                <h1>Need more information to get started?</h1>
-                <button>CONTACT US</button>
-            </div>
-        </section>
-        <footer class="footer">
-            <h1 class="footer__title">Travelulu</h1>
 
-            <p class="footer__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-                ullamcorper magna, ac laoreet ex. Integer a consequat lectus.
-                Nullam tortor sem
-            </p>
-            <p class="footer__copyrigth">
-                Copyright 2021, All Rights Reserved.
-            </p>
+                <div class="footer__services footer__services--hidden">
+                    <p class="footer__contact-text">Services</p>
+                    <ul class="footer__list">
+                        <li>Planning</li>
+                        <li>Financing</li>
+                        <li>Purchasing</li>
+                        <li>Meeting</li>
+                        <li>Flying</li>
+                    </ul>
+                </div>
 
-            <div class="footer__contact">
-                <p class="footer__contact-text">Contact</p>
-                <a class="footer__email">travelulu@website.com</a>
-                <p class="footer__address">
-                    22 Street Address,, Suburb Address Main City, PO Box,
-                    Country
-                </p>
-                <p class="footer__phonenumber">08 8888 88888</p>
-            </div>
-        </footer>
+                <div class="footer__continents footer__continents--hidden">
+                    <p class="footer__contact-text">Continents</p>
+                    <ul class="footer__list">
+                        <li>North America</li>
+                        <li>Soth America</li>
+                        <li>Asia</li>
+                        <li>Africa</li>
+                        <li>Europe</li>
+                        <li>Australia</li>
+                    </ul>
+                </div>
+
+                <div class="footer__contact">
+                    <p class="footer__contact-text">Contact</p>
+                    <a class="footer__email">travelulu@website.com</a>
+                    <p class="footer__address">
+                        22 Street Address,, Suburb Address Main City, PO Box,
+                        Country
+                    </p>
+                    <p class="footer__phonenumber">08 8888 88888</p>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
