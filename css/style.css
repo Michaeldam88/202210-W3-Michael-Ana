@@ -306,4 +306,62 @@ body {
   width: 80%;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer__logo {
+  display: block;
+  color: #5f2eea;
+  margin-left: 138px;
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+.footer__lorem {
+  color: #4e4b66;
+  font-size: 1rem;
+  line-height: 2.125rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+  justify-content: center;
+}
+.footer__copyright {
+  color: #4e4b66;
+  font-size: 1rem;
+  line-height: 2.125rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footer__title {
+  color: #14142b;
+}
+.footer__email {
+  color: #5f2eea;
+}
+.footer__adress {
+  color: #4e4b66;
+  font-size: 1rem;
+  line-height: 2.125rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+  justify-content: center;
+}
+.footerphonenumber {
+  color: #4e4b66;
+  font-size: 1rem;
+  line-height: 2.125rem;
+  letter-spacing: 0.75px;
+  text-align: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */

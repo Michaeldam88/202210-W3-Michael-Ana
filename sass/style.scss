@@ -313,3 +313,64 @@ body {
         }
     }
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &__logo {
+        display: block;
+        color: #5f2eea;
+        margin-left: 138px;
+        margin-top: 34px;
+        margin-bottom: 24px;
+    }
+    &__lorem {
+        color: #4e4b66;
+        font-size: toRem(16);
+        line-height: toRem(34);
+        letter-spacing: 0.75px;
+        text-align: center;
+        justify-content: center;
+    }
+    &__copyright {
+        color: #4e4b66;
+        font-size: toRem(16);
+        line-height: toRem(34);
+        letter-spacing: 0.75px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 12px;
+        margin-bottom: 50px;
+    }
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    &__title {
+        color: #14142b;
+    }
+
+    &__email {
+        color: #5f2eea;
+    }
+
+    &__adress {
+        color: #4e4b66;
+        font-size: toRem(16);
+        line-height: toRem(34);
+        letter-spacing: 0.75px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    &phonenumber {
+        color: #4e4b66;
+        font-size: toRem(16);
+        line-height: toRem(34);
+        letter-spacing: 0.75px;
+        text-align: center;
+        justify-content: center;
+    }
+}
